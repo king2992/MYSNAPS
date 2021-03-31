@@ -1,11 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
+<%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<meta charset="utf-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport"
 			content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
@@ -70,10 +69,18 @@
       </div>
     </div>
   </nav>
-
-	<div id="container">
-		<div class="support-grid"></div>
-
+  
+  <div class="sub-nav">
+  	<div class="wrap">
+  		<a href="#" class="button-first" onclick="allCheckHideAndShow();">편집하기</a>
+  		<a href="#" class="button">폴더정리</a>
+  		<a href="#" class="button">사진 올리기</a>
+  		<a href="#" class="button" id="allCheck" style="float:left; margin-left:17%; margin-top:1%; display:none;">전체선택</a>
+	</div>
+  </div>
+  
+  <div id="container">
+	<div class="support-grid"></div>
 		<div class="band">
 			<div class="item-1">
 				<div class="card">
@@ -129,7 +136,34 @@
 					</div>
 					<article>
 						<h1>Title Area</h1>
-						<span>Tag Area</span>/span>
+						<span>Tag Area</span>
+					</article>
+				</div>
+			</div>
+			<div class="item-7">
+				<div class="card">
+					<div class="thumb" style="background-image: url(https://cdn.pixabay.com/photo/2017/10/07/17/48/woman-2827333_1280.jpg);"></div>
+					<article>
+						<h1>Title Area</h1>
+						<span>Tag Area</span>
+					</article>
+				</div>
+			</div>
+			<div class="item-7">
+				<div class="card">
+					<div class="thumb" style="background-image: url(https://cdn.pixabay.com/photo/2017/10/07/17/48/woman-2827333_1280.jpg);"></div>
+					<article>
+						<h1>Title Area</h1>
+						<span>Tag Area</span>
+					</article>
+				</div>
+			</div>
+			<div class="item-7">
+				<div class="card">
+					<div class="thumb" style="background-image: url(https://cdn.pixabay.com/photo/2017/10/07/17/48/woman-2827333_1280.jpg);"></div>
+					<article>
+						<h1>Title Area</h1>
+						<span>Tag Area</span>
 					</article>
 				</div>
 			</div>
@@ -144,9 +178,25 @@
 			</div>
 		</div>
 	</div>
-
+  	<footer>
+	    <div class="container">
+	      <p>&copy; MYSNAPS 2021. All Rights Reserved.</p>
+	      <ul class="list-inline">
+	        <li class="list-inline-item">
+	          <a href="#">Privacy</a>
+	        </li>
+	        <li class="list-inline-item">
+	          <a href="#">Terms</a>
+	        </li>
+	        <li class="list-inline-item">
+	          <a href="#">FAQ</a>
+	        </li>
+	      </ul>
+	    </div>
+ 	</footer>
 	<!-- Bootstrap core JavaScript -->
   <script src="../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../js/repo.js" charset="UTF-8"></script>
   <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
