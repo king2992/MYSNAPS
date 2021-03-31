@@ -1,0 +1,90 @@
+@charset "UTF-8";
+.loginForm {
+  position:absolute;
+  width:300px;
+  height:470px;
+  padding: 30px, 20px;
+  background-color:#F8ECE0;
+  text-align:center;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  border-radius: 15px;
+}
+
+.loginForm h2{
+  text-align: center;
+  margin: 30px;
+}
+
+.idForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.passForm{
+  border-bottom: 2px solid #adadad;
+  margin: 30px;
+  padding: 10px 10px;
+}
+
+.id {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.pw {
+  width: 100%;
+  border:none;
+  outline:none;
+  color: #636e72;
+  font-size:16px;
+  height:25px;
+  background: none;
+}
+
+.btn {
+  position:relative;
+  left:40%;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+  width:80%;
+  height:40px;
+  background: linear-gradient(125deg,#F8E6E0,#F5BCA9,#FACC2E);
+  background-position: left;
+  background-size: 200%;
+  color:white;
+  font-weight: bold;
+  border:none;
+  cursor:pointer;
+  transition: 0.4s;
+  display:inline;
+}
+
+.btn:hover {
+  background-position: right;
+}
+
+.bottomText {
+  text-align: center;
+}
+
+#kakao_id_login{
+  text-align: center;
+  margin-top: 1%;	
+}
+
+#naver_id_login{
+  text-align: center;	
+  margin-top: 1%;
+}
+img{
+	height:45px;
+	width:223px;
+}
